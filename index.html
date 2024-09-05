@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachael Bosede Daramola Burial Ceremony</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('/property2.jpg'); /* Replace with your background image */
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    h1, h2 {
+      color: #FF6B6B; /* Soft red color */
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 1);
+      color: aliceblue;
+    }
+
+    main {
+      padding-top: 80px; /* Adjust for fixed navbar height */
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <!-- Navigation -->
+  <nav class="bg-blue-900 text-white p-6 fixed w-full top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-3xl font-bold">RBD Burial Ceremony</a>
+      <div class="hidden md:flex space-x-8">
+        <a href="#internment" class="hover:text-gray-400">Internment</a>
+        <a href="#reception" class="hover:text-gray-400">Reception</a>
+        <a href="#security" class="hover:text-gray-400">Security</a>
+        <a href="#media" class="hover:text-gray-400">Media</a>
+      </div>
+      <button id="menu-toggle" class="md:hidden text-3xl focus:outline-none">
+        &#9776;
+      </button>
+    </div>
+    <div id="menu" class="hidden md:hidden flex-col items-center space-y-6 mt-4 text-xl">
+      <a href="#internment" class="hover:text-gray-400" onclick="toggleMenu()">Internment</a>
+      <a href="#reception" class="hover:text-gray-400" onclick="toggleMenu()">Reception</a>
+      <a href="#security" class="hover:text-gray-400" onclick="toggleMenu()">Security</a>
+      <a href="#media" class="hover:text-gray-400" onclick="toggleMenu()">Media</a>
+    </div>
+  </nav>
+
+  <main class="mt-12 max-w-6xl mx-auto p-6 space-y-12">
+    <!-- Header -->
+    <header class="bg-gray-900 bg-opacity-75 text-center p-10">
+      <h1 class="text-5xl font-bold">Burial Ceremony of Rachael Bosede Daramola</h1>
+      <p class="mt-4 text-lg">Planning Committee and Responsibilities</p>
+    </header>
+
+    <!-- Internment Unit -->
+    <section id="internment" class="bg-white bg-opacity-80 text-gray-900 p-8 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold mb-4">Internment Unit</h2>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Casket</li>
+        <li>Grave preparations (Land, digging, cementing, design)</li>
+        <li>Corpse logistics (ambulances)</li>
+        <li>Undertakers (casket bearers)</li>
+        <li>Clothing the corpse</li>
+        <li>Table and decorations arrangements for the service of songs</li>
+        <li>Interface with St. John Anglican Church, Ogbagi, and Christian Association of Nigeria (CAN)</li>
+      </ul>
+      <p class="mt-6 font-semibold text-xl">Members in charge:</p>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Pharmacy Femi Daramola</li>
+        <li>Engr. Oyebola Daramola</li>
+        <li>Pastor Oluyemi Daramola</li>
+        <li>Evangelist Modupe Daramola</li>
+      </ul>
+    </section>
+
+    <!-- Reception and Entertainment Unit -->
+    <section id="reception" class="bg-white bg-opacity-80 text-gray-900 p-8 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold mb-4">Reception and Entertainment Unit</h2>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Food and catering (meats, rice, salad, etc.)</li>
+        <li class="text-red-500">Drinks and cooling system</li>
+        <li>Hire ushers, music artists, trumpet, and drums</li>
+        <li>Estimate and manage food and drink sharing</li>
+      </ul>
+      <p class="mt-6 font-semibold text-xl">Members in charge:</p>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Mrs. Uche Daramola (Mummy USA)</li>
+        <li>Evangelist Modupe (Leader)</li>
+        <li>Evangelist Funke (Mum Lagos)</li>
+        <li>Mrs. Comfort Daramola</li>
+        <!-- Additional members listed... -->
+      </ul>
+    </section>
+
+    <!-- Security, Logistics, and Accommodations Unit -->
+    <section id="security" class="bg-white bg-opacity-80 text-gray-900 p-8 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold mb-4">Security, Logistics, and Accommodations Unit</h2>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Community and security arrangements (King, chiefs, youth security)</li>
+        <li>Engage Police and Army for security</li>
+        <li>Book hotels for guests</li>
+        <li>Arrange venue, canopy, chairs, etc.</li>
+        <li>Plan traffic control and dignitaries care</li>
+      </ul>
+      <p class="mt-6 font-semibold text-xl">Members in charge:</p>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Dr. Tope Daramola</li>
+        <li>Pastor Oluyemi Daramola</li>
+        <li>"Prof." Olaniyi Nelson Daramola (CNN)</li>
+        <li>Mr. OluwaBusuyi Daramola</li>
+        <!-- Additional members listed... -->
+      </ul>
+    </section>
+
+    <!-- Media and Graphics Unit -->
+    <section id="media" class="bg-white bg-opacity-80 text-gray-900 p-8 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold mb-4">Media and Graphics Unit</h2>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Plan video and photography arrangements</li>
+        <li>Print banners, posters, invitation cards</li>
+        <li>Radio and TV jingles/advertisements</li>
+        <li>Social media live streaming of the event</li>
+        <li>Order of program pamphlet printing</li>
+      </ul>
+      <p class="mt-6 font-semibold text-xl">Members in charge:</p>
+      <ul class="list-disc pl-6 space-y-2 text-lg font-medium">
+        <li>Engr. Oyebola Daramola</li>
+        <li>Pastor Oluyemi Daramola</li>
+        <li>OluwaBusuyi Daramola</li>
+        <li>Timilehin Daramola Eyahfeh</li>
+        <!-- Additional members listed... -->
+      </ul>
+    </section>
+
+  </main>
+  
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white p-6 text-center mt-12">
+    <p class="text-[#FF6B6B] font-medium"> 
+    <p>Powered By: </p> 
+    <p>Engr. Oyebola, MD/CEO.</p> 
+    <p>CreativeDadd Software Consult, Lagos.</p></p>
+    <p>&copy; 2024 Burial Ceremony Planning Committee |  All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+
+    function toggleMenu() {
+      menu.classList.toggle('hidden');
+      menuToggle.textContent = menu.classList.contains('hidden') ? '☰' : '✖';
+    }
+
+    menuToggle.addEventListener('click', toggleMenu);
+  </script>
+</body>
+
+</html>
